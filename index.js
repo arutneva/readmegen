@@ -3,7 +3,7 @@ const fs = require('fs')
 const generateMarkdown = require("./utils/generateMarkdown")
 
 // Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
-const questions = [
+const answers = [
     {
         name: "title",
         type: "input",
@@ -51,7 +51,7 @@ const questions = [
 
 function init() {
 
-    inquirer.prompt(questions)
+    inquirer.prompt(answers)
     .then(data=>{
         console.log(data)
         fs.writeFile("./tests/README.md", generateMarkdown(data))
