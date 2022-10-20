@@ -49,7 +49,6 @@ ${data.contributors}
 
   ${renderLicenseBadge(data.license)}
   
-
   
   ## Tests
 

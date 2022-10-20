@@ -1,4 +1,4 @@
-const { default: inquirer } = require('inquirer');
+const inquirer = require('inquirer');
 const fs = require('fs')
 const generateMarkdown = require("./utils/generateMarkdown")
 
@@ -41,9 +41,9 @@ const answers = [
         message: "What are the testing guidelines?",
     },
     {
-        name: "contact",
+        name: "questions",
         type: "input",
-        message: "What is your github username and email for further questions?",
+        message: "What is your github username and email for more information?",
     },
 
 
@@ -52,10 +52,10 @@ const answers = [
 function init() {
 
     inquirer.prompt(answers)
-    .then(data=>{
-        console.log(data)
-        fs.writeFile("./tests/README.md", generateMarkdown(data))
-    });
+        .then(data => {
+            console.log(data)
+            fs.writeFileSync("./tests/README.md", generateMarkdown(data))
+        });
 
 };
 
