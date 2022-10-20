@@ -55,6 +55,10 @@ ${data.contributors}
 
   ${data.test}
 
+  ## Questions
+
+  ${data.questions}
+
 `;
 }
 
