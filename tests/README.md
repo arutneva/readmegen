@@ -1,8 +1,8 @@
-# Day Planner
+# ReadME Generator
 
   ## Description
   
-This project allows you to plan a work day from 9am to 5pm, it is also color coded to let you know what hour you are on. 
+Help create, a simple read me. 
   
   ## Table of Contents (Optional)
   
@@ -15,16 +15,16 @@ This project allows you to plan a work day from 9am to 5pm, it is also color cod
   
   ## Installation
   
-The user will open it in the browser.
+Starts by using node index.js in terminal
   
   ## Usage
   
-It is utilized to create a visual of your work day plans.
+It is used to write up readme and get the basics down.
   
   
   ## Credits
   
-Marilyn Ventura, OSU Bootcamp. No others allowed to contribute. For reference only.
+Marilyn Ventura, OSU Bootcamp. Others are allowed to contribute.
   
   ## License
 
@@ -33,9 +33,9 @@ Marilyn Ventura, OSU Bootcamp. No others allowed to contribute. For reference on
   
   ## Tests
 
-  Allowed to test.
+  Test as much as you would like.
 
   ## Questions
 
-  Username to github for further questions or information is, arutneva.
+  For more information reach me at arutneva at github.
 
