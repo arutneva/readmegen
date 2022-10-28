@@ -1,8 +1,8 @@
-# hi
+# Day Planner
 
   ## Description
   
-no
+This project allows you to plan a work day from 9am to 5pm, it is also color coded to let you know what hour you are on. 
   
   ## Table of Contents (Optional)
   
@@ -15,27 +15,27 @@ no
   
   ## Installation
   
-npm i
+The user will open it in the browser.
   
   ## Usage
   
-to do readmes
+It is utilized to create a visual of your work day plans.
   
   
   ## Credits
   
-m.v.d and yes
+Marilyn Ventura, OSU Bootcamp. No others allowed to contribute. For reference only.
   
   ## License
 
-  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
   
   ## Tests
 
-  anything
+  Allowed to test.
 
   ## Questions
 
-  arutneva marilynventura@outlook.com
+  Username to github for further questions or information is, arutneva.
 
